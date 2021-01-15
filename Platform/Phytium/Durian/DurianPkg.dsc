@@ -37,7 +37,8 @@
   PL011UartLib|ArmPlatformPkg/Library/PL011UartLib/PL011UartLib.inf
 
 [LibraryClasses.common.DXE_DRIVER]
-
+  # Pci dependencies
+  PciSegmentLib|Silicon/Phytium/Phytium2000-4/Library/PciSegmentLib/PciSegmentLib.inf
 
 ################################################################################
 #
