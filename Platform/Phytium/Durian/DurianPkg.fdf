@@ -109,6 +109,9 @@ READ_LOCK_STATUS   = TRUE
   INF MdeModulePkg/Universal/Variable/RuntimeDxe/VariableRuntimeDxe.inf
   INF MdeModulePkg/Universal/FaultTolerantWriteDxe/FaultTolerantWriteDxe.inf
 
+  # Required by PCI
+  INF ArmPkg/Drivers/ArmPciCpuIo2Dxe/ArmPciCpuIo2Dxe.inf
+
   #
   # ACPI Support
   #
@@ -134,6 +137,12 @@ READ_LOCK_STATUS   = TRUE
   INF MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
   INF FatPkg/EnhancedFatDxe/Fat.inf
   INF MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf
+
+  #
+  # PCI Support
+  #
+  INF MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe.inf
+  INF MdeModulePkg/Bus/Pci/PciHostBridgeDxe/PciHostBridgeDxe.inf
 
   #
   # SATA Controller
