@@ -105,6 +105,11 @@ READ_LOCK_STATUS   = TRUE
   INF ArmPkg/Drivers/TimerDxe/TimerDxe.inf
   INF ArmPkg/Drivers/GenericWatchdogDxe/GenericWatchdogDxe.inf
 
+  #
+  # Spi driver
+  #
+  INF Silicon/Phytium/Phytium2000-4/Drivers/PhytiumSpiDxe/PhytiumSpiDxe.inf
+
   # Variable services
   INF MdeModulePkg/Universal/Variable/RuntimeDxe/VariableRuntimeDxe.inf
   INF MdeModulePkg/Universal/FaultTolerantWriteDxe/FaultTolerantWriteDxe.inf
