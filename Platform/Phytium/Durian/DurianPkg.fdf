@@ -102,6 +102,7 @@ READ_LOCK_STATUS   = TRUE
 
   INF ArmPkg/Drivers/ArmGic/ArmGicDxe.inf
   INF ArmPkg/Drivers/CpuDxe/CpuDxe.inf
+  INF Silicon/Phytium/CommonDrivers/PhytiumFlashFvbDxe/PhytiumFlashFvbDxe.inf
   INF ArmPkg/Drivers/TimerDxe/TimerDxe.inf
   INF ArmPkg/Drivers/GenericWatchdogDxe/GenericWatchdogDxe.inf
 

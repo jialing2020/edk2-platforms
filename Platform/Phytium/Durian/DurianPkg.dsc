@@ -265,6 +265,7 @@
   # NOR Flash driver
   #
   Silicon/Phytium/CommonDrivers/PhytiumSpiNorFlashDxe/PhytiumSpiNorFlashDxe.inf
+  Silicon/Phytium/CommonDrivers/PhytiumFlashFvbDxe/PhytiumFlashFvbDxe.inf
 
   #
   # Usb Support
