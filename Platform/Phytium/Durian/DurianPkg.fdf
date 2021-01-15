@@ -192,6 +192,14 @@ READ_LOCK_STATUS   = TRUE
   INF MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
   INF MdeModulePkg/Application/UiApp/UiApp.inf
 
+  #
+  # Logo
+  #
+  INF MdeModulePkg/Application/BootManagerMenuApp/BootManagerMenuApp.inf
+  FILE FREEFORM = PCD(gPhytiumPlatformTokenSpaceGuid.PcdLogoFile) {
+    SECTION RAW = Silicon/Phytium/Logo/PhytiumLogo.bmp
+  }
+
 [FV.FVMAIN_COMPACT]
 FvAlignment        = 16
 ERASE_POLARITY     = 1

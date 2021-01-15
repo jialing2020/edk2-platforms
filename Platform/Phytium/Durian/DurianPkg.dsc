@@ -28,6 +28,7 @@
 [LibraryClasses.common]
   # Phytium Platform library
   ArmPlatformLib|Silicon/Phytium/Phytium2000-4/Library/PhytiumPlatformLib/PhytiumPlatformLib.inf
+  LogoLib|Silicon/Phytium/Library/LogoLib/LogoLib.inf
 
   TimeBaseLib|EmbeddedPkg/Library/TimeBaseLib/TimeBaseLib.inf
 
