@@ -110,6 +110,11 @@ READ_LOCK_STATUS   = TRUE
   #
   INF Silicon/Phytium/Phytium2000-4/Drivers/PhytiumSpiDxe/PhytiumSpiDxe.inf
 
+  #
+  # NOR Flash driver
+  #
+  INF Silicon/Phytium/CommonDrivers/PhytiumSpiNorFlashDxe/PhytiumSpiNorFlashDxe.inf
+
   # Variable services
   INF MdeModulePkg/Universal/Variable/RuntimeDxe/VariableRuntimeDxe.inf
   INF MdeModulePkg/Universal/FaultTolerantWriteDxe/FaultTolerantWriteDxe.inf
