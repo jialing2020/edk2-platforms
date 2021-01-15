@@ -30,6 +30,8 @@
   ArmPlatformLib|Silicon/Phytium/Phytium2000-4/Library/PhytiumPlatformLib/PhytiumPlatformLib.inf
   LogoLib|Silicon/Phytium/Library/LogoLib/LogoLib.inf
 
+  #Phytium2000-4 RTC Driver
+  RealTimeClockLib|Silicon/Phytium/Phytium2000-4/Library/PhytiumRealTimeClockLib/PhytiumRealTimeClockLib.inf
   TimeBaseLib|EmbeddedPkg/Library/TimeBaseLib/TimeBaseLib.inf
 
   # PL011 UART Driver and Dependency Libraries
@@ -180,6 +182,7 @@
   }
   MdeModulePkg/Universal/FaultTolerantWriteDxe/FaultTolerantWriteDxe.inf
   EmbeddedPkg/ResetRuntimeDxe/ResetRuntimeDxe.inf
+  EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.inf
 
   #
   # Common Arm Timer and Gic Components
