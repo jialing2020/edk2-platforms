@@ -285,6 +285,13 @@
   MdeModulePkg/Bus/Pci/NvmExpressDxe/NvmExpressDxe.inf
 
   #
+  # ACPI Support
+  #
+  MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe.inf
+  Silicon/Phytium/Phytium2000-4/Drivers/AcpiTables/AcpiTables.inf
+  Silicon/Phytium/Phytium2000-4/Drivers/AcpiPlatformDxe/AcpiPlatformDxe.inf
+
+  #
   # Bds
   #
   MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe.inf
