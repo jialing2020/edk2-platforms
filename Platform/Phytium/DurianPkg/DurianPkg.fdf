@@ -96,6 +96,7 @@ READ_LOCK_STATUS   = TRUE
   INF EmbeddedPkg/MetronomeDxe/MetronomeDxe.inf
 
   INF Silicon/Phytium/FT2000-4Pkg/Drivers/SpiDxe/SpiDxe.inf
+  INF Silicon/Phytium/FT2000-4Pkg/Drivers/SpiNorFlashDxe/SpiNorFlashDxe.inf
 
   INF MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf
   INF MdeModulePkg/Universal/MonotonicCounterRuntimeDxe/MonotonicCounterRuntimeDxe.inf
