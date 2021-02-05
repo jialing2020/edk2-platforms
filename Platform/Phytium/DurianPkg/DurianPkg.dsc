@@ -233,6 +233,7 @@
   # NOR Flash driver
   #
   Silicon/Phytium/FT2000-4Pkg/Drivers/SpiNorFlashDxe/SpiNorFlashDxe.inf
+  Silicon/Phytium/PhytiumCommonPkg/Drivers/FlashFvbDxe/FlashFvbDxe.inf
 
   #
   # Usb Support
