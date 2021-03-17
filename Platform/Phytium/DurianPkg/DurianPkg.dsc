@@ -250,6 +250,11 @@
   Silicon/Phytium/FT2000-4Pkg/Drivers/SpiDxe/SpiDxe.inf
 
   #
+  # NOR Flash driver
+  #
+  Silicon/Phytium/FT2000-4Pkg/Drivers/SpiNorFlashDxe/SpiNorFlashDxe.inf
+
+  #
   # Usb Support
   #
   MdeModulePkg/Bus/Pci/UhciDxe/UhciDxe.inf
